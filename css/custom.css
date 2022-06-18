@@ -1,0 +1,77 @@
+body, html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--primary);
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--primary);
+    color: var(--tertiary);
+}
+
+
+#slider {
+    background-image: linear-gradient(to right, #8541DD , #41c5e6);
+}
+
+#slider h1 {
+    color: white;
+    font-weight: 900;
+}
+
+#slider h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#vantagem {
+    background-color: var(--secondary);
+}
+
+#vantagem h3 {
+    color: white;
+    font-weight: 900;
+}
+
+#vantagem h5 {
+    color: var(--tertiary);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#app {
+    background-image: linear-gradient(to right, #8541DD , #41c5e6);
+}
+#app h3 {
+    color: white;
+}
+
+#app  h5 {
+    color: var(--secondary);
+    font-weight: 400;
+} 
+
+#rodape h6 {
+    text-align: center;
+}
+

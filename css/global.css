@@ -1,0 +1,54 @@
+.button{
+    font-weight: 500px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.button-primary {
+    background-color: var(--quaternary);
+    border-color: var(--quaternary);
+}
+
+.button-primary:hover {
+    background-color: var(--tertiary);
+    border-color: var(--tertiary);
+}
+.button-primary-outline {
+    border-color: white;
+    color: white;}
+
+.button-primary-outline:hover {
+        background-color: var(--quaternary);
+        border-color: var(--quaternary);
+}
+.button-saiba {
+    background-color: var(--primary);
+    border-color: var(--primary);
+
+}
+
+.button-saiba:hover {
+    background-color: var(--tertiary);
+    border-color: var(--tertiary);
+}
+.button-playst {
+    background-color: var(--primary);
+     border-color: var(--primary);
+    
+}
+    
+.button-playst:hover {
+        background-color: var(--tertiary);
+        border-color: var(--tertiary);
+}
+
+.gradient {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #8541DD , #41c5e6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
